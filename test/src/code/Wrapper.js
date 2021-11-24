@@ -6,6 +6,7 @@ function Wrapper({children}){
     padding: 16
   };
 
+  
   return <div style={style}>{children}</div>
 }
 

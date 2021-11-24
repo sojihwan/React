@@ -9,6 +9,7 @@ function Hello(props){
     {props.isSpecial && <b>*</b>}
     </div>;
 }
+
 Hello.defaultProps ={
   name: '이름없음'
 };

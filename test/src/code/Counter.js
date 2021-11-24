@@ -10,6 +10,7 @@ const [number,setNumber] = useState(0);
     setNumber(number-1)
   }
 
+  
   return (
     <div>
       <h1>{number}</h1>
