@@ -4,6 +4,7 @@ import Counter from './code/Counter';
 import Hello from './code/Hello';
 import InputSample from './code/InputSample';
 import Wrapper from './code/Wrapper';
+import key from './code/key';
 
 
 
@@ -17,7 +18,9 @@ function App() {
       <Counter></Counter>
     <br/>
       <InputSample></InputSample>
-      <br/>
+      <br>
+      </br>
+      <key></key>
     </Wrapper>
     
   );

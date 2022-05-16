@@ -4,6 +4,7 @@ import Counter from './code/Counter';
 import Hello from './code/Hello';
 import InputSample from './code/InputSample';
 import Wrapper from './code/Wrapper';
+import Key from './code/key';
 
 
 
@@ -18,6 +19,7 @@ function App() {
     <br/>
       <InputSample></InputSample>
       <br/>
+      <Key></Key>
     </Wrapper>
     
   );

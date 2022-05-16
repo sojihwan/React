@@ -5,10 +5,7 @@ import Hello from './code/Hello';
 import InputSample from './code/InputSample';
 import Wrapper from './code/Wrapper';
 
-
-
 function App() {
-  
   return (
     <Wrapper>
       <Hello name ='REACT iS GAD' color='red' isSpecial={true}/>
@@ -17,9 +14,7 @@ function App() {
       <Counter></Counter>
     <br/>
       <InputSample></InputSample>
-      <br/>
     </Wrapper>
-    
   );
 }
 
