@@ -1,5 +1,5 @@
 import React , { useState } from 'react';
-import ChildrenComponent from './code/ChildrenComponent';
+import ChildrenComponent from './ChildrenComponent';
 
 function ParentComponent(){
   const [value, setValue] = useState("");
