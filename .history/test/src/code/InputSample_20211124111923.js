@@ -1,6 +1,6 @@
 import React,{useState,useRef} from "react";
 
-function InputSample(props){
+function InputSample(){
   const [inputs, setInputs]=useState({
     name: '',
     nickname:'',
@@ -31,7 +31,6 @@ function InputSample(props){
       <input name="nickname" placeholder="닉네임" onChange={onChange} value={nickname}/>
       <button onClick={onReset}>초기화</button>
       <div>
-        <a>axoaxo{props.value}</a>
         <b>값:</b>
         {name} ({nickname})
       </div>
